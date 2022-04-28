@@ -1,0 +1,11 @@
+{
+  "Version": 1,
+  "ProjectMap": {
+    "bd098d04-7a4d-4c37-a9c5-be91268d22ce": {
+      "ProjectGuid": "bd098d04-7a4d-4c37-a9c5-be91268d22ce",
+      "DisplayName": "Read Holding Registers Example",
+      "ColorIndex": 0
+    }
+  },
+  "NextColorIndex": 1
+}

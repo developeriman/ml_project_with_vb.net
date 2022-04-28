@@ -1,0 +1,79 @@
+C:\Users\bdnhi\source\repos\Read Holding Registers Example\Read Holding Registers Example\obj\Release\Read Holding Registers Example.vbproj.AssemblyReference.cache
+C:\Users\bdnhi\source\repos\Read Holding Registers Example\Read Holding Registers Example\obj\Release\Read Holding Registers Example.vbproj.SuggestedBindingRedirects.cache
+C:\Users\bdnhi\source\repos\Read Holding Registers Example\Read Holding Registers Example\obj\Release\Read_Holding_Registers_Example.ReadHoldingRegistersExampleForm.resources
+C:\Users\bdnhi\source\repos\Read Holding Registers Example\Read Holding Registers Example\obj\Release\Read_Holding_Registers_Example.Resources.resources
+C:\Users\bdnhi\source\repos\Read Holding Registers Example\Read Holding Registers Example\obj\Release\Read Holding Registers Example.vbproj.GenerateResource.cache
+C:\Users\bdnhi\source\repos\Read Holding Registers Example\Read Holding Registers Example\obj\Release\Read Holding Registers Example.vbproj.CoreCompileInputs.cache
+C:\Users\bdnhi\source\repos\Read Holding Registers Example\Read Holding Registers Example\bin\Release\Read Holding Registers Example.exe.config
+C:\Users\bdnhi\source\repos\Read Holding Registers Example\Read Holding Registers Example\bin\Release\Read Holding Registers Example.exe.manifest
+C:\Users\bdnhi\source\repos\Read Holding Registers Example\Read Holding Registers Example\bin\Release\Read Holding Registers Example.application
+C:\Users\bdnhi\source\repos\Read Holding Registers Example\Read Holding Registers Example\bin\Release\Read Holding Registers Example.exe
+C:\Users\bdnhi\source\repos\Read Holding Registers Example\Read Holding Registers Example\bin\Release\Read Holding Registers Example.pdb
+C:\Users\bdnhi\source\repos\Read Holding Registers Example\Read Holding Registers Example\bin\Release\Read Holding Registers Example.xml
+C:\Users\bdnhi\source\repos\Read Holding Registers Example\Read Holding Registers Example\obj\Release\Read Holding Registers Example.exe.manifest
+C:\Users\bdnhi\source\repos\Read Holding Registers Example\Read Holding Registers Example\obj\Release\Read Holding Registers Example.application
+C:\Users\bdnhi\source\repos\Read Holding Registers Example\Read Holding Registers Example\obj\Release\Read Holding Registers Example.exe
+C:\Users\bdnhi\source\repos\Read Holding Registers Example\Read Holding Registers Example\obj\Release\Read Holding Registers Example.xml
+C:\Users\bdnhi\source\repos\Read Holding Registers Example\Read Holding Registers Example\obj\Release\Read Holding Registers Example.pdb
+C:\Users\bdnhi\source\repos\New folder\Read Holding Registers Example\Read Holding Registers Example\bin\Release\Read Holding Registers Example.exe.config
+C:\Users\bdnhi\source\repos\New folder\Read Holding Registers Example\Read Holding Registers Example\bin\Release\Read Holding Registers Example.exe.manifest
+C:\Users\bdnhi\source\repos\New folder\Read Holding Registers Example\Read Holding Registers Example\bin\Release\Read Holding Registers Example.application
+C:\Users\bdnhi\source\repos\New folder\Read Holding Registers Example\Read Holding Registers Example\bin\Release\Read Holding Registers Example.exe
+C:\Users\bdnhi\source\repos\New folder\Read Holding Registers Example\Read Holding Registers Example\bin\Release\Read Holding Registers Example.pdb
+C:\Users\bdnhi\source\repos\New folder\Read Holding Registers Example\Read Holding Registers Example\bin\Release\Read Holding Registers Example.xml
+C:\Users\bdnhi\source\repos\New folder\Read Holding Registers Example\Read Holding Registers Example\obj\Release\Read Holding Registers Example.vbproj.AssemblyReference.cache
+C:\Users\bdnhi\source\repos\New folder\Read Holding Registers Example\Read Holding Registers Example\obj\Release\Read Holding Registers Example.vbproj.SuggestedBindingRedirects.cache
+C:\Users\bdnhi\source\repos\New folder\Read Holding Registers Example\Read Holding Registers Example\obj\Release\Read_Holding_Registers_Example.ReadHoldingRegistersExampleForm.resources
+C:\Users\bdnhi\source\repos\New folder\Read Holding Registers Example\Read Holding Registers Example\obj\Release\Read_Holding_Registers_Example.Resources.resources
+C:\Users\bdnhi\source\repos\New folder\Read Holding Registers Example\Read Holding Registers Example\obj\Release\Read Holding Registers Example.vbproj.GenerateResource.cache
+C:\Users\bdnhi\source\repos\New folder\Read Holding Registers Example\Read Holding Registers Example\obj\Release\Read Holding Registers Example.vbproj.CoreCompileInputs.cache
+C:\Users\bdnhi\source\repos\New folder\Read Holding Registers Example\Read Holding Registers Example\obj\Release\Read Holding Registers Example.exe.manifest
+C:\Users\bdnhi\source\repos\New folder\Read Holding Registers Example\Read Holding Registers Example\obj\Release\Read Holding Registers Example.application
+C:\Users\bdnhi\source\repos\New folder\Read Holding Registers Example\Read Holding Registers Example\obj\Release\Read Holding Registers Example.exe
+C:\Users\bdnhi\source\repos\New folder\Read Holding Registers Example\Read Holding Registers Example\obj\Release\Read Holding Registers Example.xml
+C:\Users\bdnhi\source\repos\New folder\Read Holding Registers Example\Read Holding Registers Example\obj\Release\Read Holding Registers Example.pdb
+C:\Users\bdnhi\source\repos\New folder\Read Holding Registers Example\Read Holding Registers Example\bin\Release\MySql.Data.dll
+C:\Users\bdnhi\source\repos\New folder\Read Holding Registers Example\Read Holding Registers Example\bin\Release\Google.Protobuf.dll
+C:\Users\bdnhi\source\repos\New folder\Read Holding Registers Example\Read Holding Registers Example\bin\Release\ZstdNet.dll
+C:\Users\bdnhi\source\repos\New folder\Read Holding Registers Example\Read Holding Registers Example\bin\Release\K4os.Compression.LZ4.Streams.dll
+C:\Users\bdnhi\source\repos\New folder\Read Holding Registers Example\Read Holding Registers Example\bin\Release\BouncyCastle.Crypto.dll
+C:\Users\bdnhi\source\repos\New folder\Read Holding Registers Example\Read Holding Registers Example\bin\Release\Ubiety.Dns.Core.dll
+C:\Users\bdnhi\source\repos\New folder\Read Holding Registers Example\Read Holding Registers Example\bin\Release\System.Memory.dll
+C:\Users\bdnhi\source\repos\New folder\Read Holding Registers Example\Read Holding Registers Example\bin\Release\System.Buffers.dll
+C:\Users\bdnhi\source\repos\New folder\Read Holding Registers Example\Read Holding Registers Example\bin\Release\K4os.Compression.LZ4.dll
+C:\Users\bdnhi\source\repos\New folder\Read Holding Registers Example\Read Holding Registers Example\bin\Release\K4os.Hash.xxHash.dll
+C:\Users\bdnhi\source\repos\New folder\Read Holding Registers Example\Read Holding Registers Example\bin\Release\MySql.Data.xml
+C:\Users\bdnhi\source\repos\New folder\Read Holding Registers Example\Read Holding Registers Example\obj\Release\Read Holding Registers Example.exe.config
+C:\Users\bdnhi\source\repos\New folder\Read Holding Registers Example\Read Holding Registers Example\obj\Release\Read Holding Registers Example.vbproj.CopyComplete
+C:\Users\bdnhi\source\repos\New folder\Read Holding Registers Example\Read Holding Registers Example\obj\Release\Read Holding Registers Example.vbproj.ResolveComReference.cache
+C:\Users\bdnhi\source\repos\New folder (2)\Read Holding Registers Example\Read Holding Registers Example\bin\Release\Read Holding Registers Example.exe.config
+C:\Users\bdnhi\source\repos\New folder (2)\Read Holding Registers Example\Read Holding Registers Example\bin\Release\Read Holding Registers Example.exe.manifest
+C:\Users\bdnhi\source\repos\New folder (2)\Read Holding Registers Example\Read Holding Registers Example\bin\Release\Read Holding Registers Example.application
+C:\Users\bdnhi\source\repos\New folder (2)\Read Holding Registers Example\Read Holding Registers Example\bin\Release\Read Holding Registers Example.exe
+C:\Users\bdnhi\source\repos\New folder (2)\Read Holding Registers Example\Read Holding Registers Example\bin\Release\Read Holding Registers Example.pdb
+C:\Users\bdnhi\source\repos\New folder (2)\Read Holding Registers Example\Read Holding Registers Example\bin\Release\Read Holding Registers Example.xml
+C:\Users\bdnhi\source\repos\New folder (2)\Read Holding Registers Example\Read Holding Registers Example\bin\Release\MySql.Data.dll
+C:\Users\bdnhi\source\repos\New folder (2)\Read Holding Registers Example\Read Holding Registers Example\bin\Release\Google.Protobuf.dll
+C:\Users\bdnhi\source\repos\New folder (2)\Read Holding Registers Example\Read Holding Registers Example\bin\Release\ZstdNet.dll
+C:\Users\bdnhi\source\repos\New folder (2)\Read Holding Registers Example\Read Holding Registers Example\bin\Release\K4os.Compression.LZ4.Streams.dll
+C:\Users\bdnhi\source\repos\New folder (2)\Read Holding Registers Example\Read Holding Registers Example\bin\Release\BouncyCastle.Crypto.dll
+C:\Users\bdnhi\source\repos\New folder (2)\Read Holding Registers Example\Read Holding Registers Example\bin\Release\Ubiety.Dns.Core.dll
+C:\Users\bdnhi\source\repos\New folder (2)\Read Holding Registers Example\Read Holding Registers Example\bin\Release\System.Memory.dll
+C:\Users\bdnhi\source\repos\New folder (2)\Read Holding Registers Example\Read Holding Registers Example\bin\Release\System.Buffers.dll
+C:\Users\bdnhi\source\repos\New folder (2)\Read Holding Registers Example\Read Holding Registers Example\bin\Release\K4os.Compression.LZ4.dll
+C:\Users\bdnhi\source\repos\New folder (2)\Read Holding Registers Example\Read Holding Registers Example\bin\Release\K4os.Hash.xxHash.dll
+C:\Users\bdnhi\source\repos\New folder (2)\Read Holding Registers Example\Read Holding Registers Example\bin\Release\MySql.Data.xml
+C:\Users\bdnhi\source\repos\New folder (2)\Read Holding Registers Example\Read Holding Registers Example\obj\Release\Read Holding Registers Example.vbproj.AssemblyReference.cache
+C:\Users\bdnhi\source\repos\New folder (2)\Read Holding Registers Example\Read Holding Registers Example\obj\Release\Read Holding Registers Example.vbproj.SuggestedBindingRedirects.cache
+C:\Users\bdnhi\source\repos\New folder (2)\Read Holding Registers Example\Read Holding Registers Example\obj\Release\Read Holding Registers Example.exe.config
+C:\Users\bdnhi\source\repos\New folder (2)\Read Holding Registers Example\Read Holding Registers Example\obj\Release\Read Holding Registers Example.vbproj.ResolveComReference.cache
+C:\Users\bdnhi\source\repos\New folder (2)\Read Holding Registers Example\Read Holding Registers Example\obj\Release\Read_Holding_Registers_Example.ReadHoldingRegistersExampleForm.resources
+C:\Users\bdnhi\source\repos\New folder (2)\Read Holding Registers Example\Read Holding Registers Example\obj\Release\Read_Holding_Registers_Example.Resources.resources
+C:\Users\bdnhi\source\repos\New folder (2)\Read Holding Registers Example\Read Holding Registers Example\obj\Release\Read Holding Registers Example.vbproj.GenerateResource.cache
+C:\Users\bdnhi\source\repos\New folder (2)\Read Holding Registers Example\Read Holding Registers Example\obj\Release\Read Holding Registers Example.vbproj.CoreCompileInputs.cache
+C:\Users\bdnhi\source\repos\New folder (2)\Read Holding Registers Example\Read Holding Registers Example\obj\Release\Read Holding Registers Example.exe.manifest
+C:\Users\bdnhi\source\repos\New folder (2)\Read Holding Registers Example\Read Holding Registers Example\obj\Release\Read Holding Registers Example.application
+C:\Users\bdnhi\source\repos\New folder (2)\Read Holding Registers Example\Read Holding Registers Example\obj\Release\Read Holding Registers Example.vbproj.CopyComplete
+C:\Users\bdnhi\source\repos\New folder (2)\Read Holding Registers Example\Read Holding Registers Example\obj\Release\Read Holding Registers Example.exe
+C:\Users\bdnhi\source\repos\New folder (2)\Read Holding Registers Example\Read Holding Registers Example\obj\Release\Read Holding Registers Example.xml
+C:\Users\bdnhi\source\repos\New folder (2)\Read Holding Registers Example\Read Holding Registers Example\obj\Release\Read Holding Registers Example.pdb
