@@ -2,8 +2,15 @@
 Imports System.Threading
 Imports MySql.Data.MySqlClient
 Imports Microsoft.Office.Interop
+Imports RestSharp
+Imports System.Net
+Imports System.IO
+Imports System.Text
 
 Public Class ReadHoldingRegistersExampleForm
+
+    Dim APIKey As String = "cb8a86a1-9c9e-4835-948c-eda0e545d3ca"
+
     Dim MysqlConn As MySqlConnection
 
     Dim COMMAND As MySqlCommand
@@ -216,10 +223,10 @@ Public Class ReadHoldingRegistersExampleForm
     End Sub
 
     Private Sub Timer2_Tick(sender As Object, e As EventArgs) Handles Timer2.Tick
-        MysqlConn = New MySqlConnection
-        MysqlConn.ConnectionString ="server ='localhost';userid='root';database='database';password=''"
+        '  MysqlConn = New MySqlConnection
+        '    MysqlConn.ConnectionString = "server ='localhost';userid='root';database='database';password=''"
         ' "server ='nhimex-prod.c0hfebe8dpuc.ap-southeast-1.rds.amazonaws.com';userid='nhimexAtiqDev';database='nhimex';password='nhimexdev2020'"
-        Dim READER As MySqlDataReader
+        '  Dim READER As MySqlDataReader
 
         Try
 
@@ -243,15 +250,26 @@ Public Class ReadHoldingRegistersExampleForm
                             '     MessageBox.Show("Data ")
 
                             ' Else
-                            MysqlConn.Open()
-                            Dim Query As String
-                            Label4.Text = Date.Now.ToString("dd MMM yyyy hh:mm:ss")
-                            Query = "insert into mydata(treceimsg,tresult,DateTime)
-                        values ('" & txtReceiMsg.Text & "','" & intCounts & "' ,'" & Label4.Text & "')"
-                            COMMAND = New MySqlCommand(Query, MysqlConn)
-                            READER = COMMAND.ExecuteReader
 
-                            MysqlConn.Close()
+
+
+                            Dim myUri As New Uri("http://127.0.0.1:8001/api/sensor-data/")
+                            Dim jsonMsg = "{""key"":""" & APIKey & """, ""str_msg"":""" & txtReceiMsg.Text & """, ""volume_data"":""" & intCounts & """}"
+
+                            Dim data = Encoding.UTF8.GetBytes(jsonMsg)
+                            Dim result_post = SendRequest(myUri, data, "application/json", "POST")
+
+                            MessageBox.Show(result_post)
+
+                            '  MysqlConn.Open()
+                            ' Dim Query As String
+                            ' Label4.Text = Date.Now.ToString("dd MMM yyyy hh:mm:ss")
+                            ' Query = "insert into mydata(treceimsg,tresult,DateTime)
+                            '     values ('" & txtReceiMsg.Text & "','" & intCounts & "' ,'" & Label4.Text & "')"
+                            ' COMMAND = New MySqlCommand(Query, MysqlConn)
+                            ' READER = COMMAND.ExecuteReader
+
+                            ' MysqlConn.Close()
                         End If
                     End If
                 End If
@@ -275,4 +293,37 @@ Public Class ReadHoldingRegistersExampleForm
     Private Sub Timer3_Tick(sender As Object, e As EventArgs) Handles Timer3.Tick
         Label4.Text = Date.Now.ToString("dd MMM yyyy hh:mm:ss")
     End Sub
+
+    Private Sub Button1_Click_1(sender As Object, e As EventArgs) Handles Button1.Click
+        Dim client = New RestClient("http: //127.0.0.1:8001/api/sensor-data")
+        Dim request = New RestRequest(Method.Post)
+        request.AddHeader("content-type", "application/x-www-form-urlencoded")
+        request.AddParameter("application/x-www-form-urlencoded", "origin=" & txtSendMsg.Text, ParameterType.RequestBody)
+        '   Dim response2 As IRestResponse = client.Execute(request)
+        '  Dim response As IRestResponse = client.Execute(request)
+        MessageBox.Show(APIKey)
+    End Sub
+
+    Private Function SendRequest(uri As Uri, jsonDataBytes As Byte(), contentType As String, method As String) As String
+        Dim response As String
+        Dim request As WebRequest
+
+        request = WebRequest.Create(uri)
+        request.ContentLength = jsonDataBytes.Length
+        request.ContentType = contentType
+        request.Method = method
+
+        Using requestStream = request.GetRequestStream
+            requestStream.Write(jsonDataBytes, 0, jsonDataBytes.Length)
+            requestStream.Close()
+
+            Using responseStream = request.GetResponse.GetResponseStream
+                Using reader As New StreamReader(responseStream)
+                    response = reader.ReadToEnd()
+                End Using
+            End Using
+        End Using
+
+        Return response
+    End Function
 End Class

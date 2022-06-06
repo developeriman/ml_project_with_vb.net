@@ -25,6 +25,7 @@ Partial Class ReadHoldingRegistersExampleForm
         Me.components = New System.ComponentModel.Container()
         Dim resources As System.ComponentModel.ComponentResourceManager = New System.ComponentModel.ComponentResourceManager(GetType(ReadHoldingRegistersExampleForm))
         Me.GroupBox1 = New System.Windows.Forms.GroupBox()
+        Me.Label4 = New System.Windows.Forms.Label()
         Me.Button2 = New System.Windows.Forms.Button()
         Me.lblMyTime = New System.Windows.Forms.Label()
         Me.txtResult = New System.Windows.Forms.TextBox()
@@ -35,13 +36,14 @@ Partial Class ReadHoldingRegistersExampleForm
         Me.Label1 = New System.Windows.Forms.Label()
         Me.Timer1 = New System.Windows.Forms.Timer(Me.components)
         Me.Timer2 = New System.Windows.Forms.Timer(Me.components)
-        Me.Label4 = New System.Windows.Forms.Label()
         Me.Timer3 = New System.Windows.Forms.Timer(Me.components)
+        Me.Button1 = New System.Windows.Forms.Button()
         Me.GroupBox1.SuspendLayout()
         Me.SuspendLayout()
         '
         'GroupBox1
         '
+        Me.GroupBox1.Controls.Add(Me.Button1)
         Me.GroupBox1.Controls.Add(Me.Label4)
         Me.GroupBox1.Controls.Add(Me.Button2)
         Me.GroupBox1.Controls.Add(Me.lblMyTime)
@@ -58,6 +60,15 @@ Partial Class ReadHoldingRegistersExampleForm
         Me.GroupBox1.TabIndex = 0
         Me.GroupBox1.TabStop = False
         Me.GroupBox1.Text = "Nhimex Fuel Manager"
+        '
+        'Label4
+        '
+        Me.Label4.AutoSize = True
+        Me.Label4.Location = New System.Drawing.Point(587, 110)
+        Me.Label4.Name = "Label4"
+        Me.Label4.Size = New System.Drawing.Size(48, 16)
+        Me.Label4.TabIndex = 5
+        Me.Label4.Text = "Label4"
         '
         'Button2
         '
@@ -135,19 +146,19 @@ Partial Class ReadHoldingRegistersExampleForm
         Me.Timer2.Enabled = True
         Me.Timer2.Interval = 1
         '
-        'Label4
-        '
-        Me.Label4.AutoSize = True
-        Me.Label4.Location = New System.Drawing.Point(587, 110)
-        Me.Label4.Name = "Label4"
-        Me.Label4.Size = New System.Drawing.Size(48, 16)
-        Me.Label4.TabIndex = 5
-        Me.Label4.Text = "Label4"
-        '
         'Timer3
         '
         Me.Timer3.Enabled = True
         Me.Timer3.Interval = 10
+        '
+        'Button1
+        '
+        Me.Button1.Location = New System.Drawing.Point(610, 207)
+        Me.Button1.Name = "Button1"
+        Me.Button1.Size = New System.Drawing.Size(75, 23)
+        Me.Button1.TabIndex = 6
+        Me.Button1.Text = "Button1"
+        Me.Button1.UseVisualStyleBackColor = True
         '
         'ReadHoldingRegistersExampleForm
         '
@@ -181,4 +192,5 @@ Partial Class ReadHoldingRegistersExampleForm
     Friend WithEvents Button2 As Button
     Friend WithEvents Label4 As Label
     Friend WithEvents Timer3 As Timer
+    Friend WithEvents Button1 As Button
 End Class
